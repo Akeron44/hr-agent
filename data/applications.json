@@ -1,0 +1,846 @@
+[
+  {
+    "submissionId": "AvNMuXfHDJUCpsWwcYU1r",
+    "candidateName": "Akeron Allkushi",
+    "candidateEmail": "oniakeron@gmail.com",
+    "candidateDescription": "I have very little experience with programming.",
+    "fileNames": [
+      "Akeron CV.pdf"
+    ],
+    "status": "FAILED",
+    "submittedAt": "2025-06-12T15:38:45.407Z",
+    "processedAt": "2025-06-12T15:38:55.905Z"
+  },
+  {
+    "submissionId": "KQ4hOJ1YHvlDb8eH9Os7Y",
+    "candidateName": "Akeron Allkushi",
+    "candidateEmail": "oniakeron@gmail.com",
+    "candidateDescription": "I have very little experience with programming.",
+    "fileNames": [
+      "Akeron CV.pdf"
+    ],
+    "status": "FAILED",
+    "submittedAt": "2025-06-12T15:46:51.126Z",
+    "processedAt": "2025-06-12T15:47:01.293Z"
+  },
+  {
+    "submissionId": "ZgEFtJTUNBNmXcFWvjpq8",
+    "candidateName": "Akeron Allkushi",
+    "candidateEmail": "oniakeron@gmail.com",
+    "candidateDescription": "I have very little experience with programming.",
+    "fileNames": [
+      "Akeron CV.pdf"
+    ],
+    "status": "FAILED",
+    "submittedAt": "2025-06-12T15:49:42.684Z",
+    "processedAt": "2025-06-12T15:49:53.748Z"
+  },
+  {
+    "submissionId": "tazbTmSj9JHN5Uo2-4voe",
+    "candidateName": "Haridas Kandath",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 7 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T08:38:08.375Z",
+    "processedAt": "2025-06-16T08:38:27.799Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Javascript",
+          "Java",
+          "Typescript",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby and DevOps",
+          "No experience with cloud platforms"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React",
+          "Broad range of technical skills",
+          "Good experience in software development",
+          "Has a Bachelor's degree in Computer Science"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 8,
+        "reasoning": [
+          "Haridas Kandath has a strong technical skillset, particularly in JavaScript and React.",
+          "He has a good level of experience in software development.",
+          "His education in Computer Science is a strong asset.",
+          "His lack of experience with Ruby, DevOps, and cloud platforms is a concern, but not a deal breaker given his other strengths."
+        ],
+        "nextSteps": [
+          "Send offer letter",
+          "Schedule onboarding session"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T08:38:26.882Z"
+    }
+  },
+  {
+    "submissionId": "UYnPTHE72jcu8Cc3im5c5",
+    "candidateName": "Haridas Kandath",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 7 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T08:49:14.702Z",
+    "processedAt": "2025-06-16T08:49:38.083Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Typescript",
+          "Javascript",
+          "Java",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby",
+          "No experience with cloud platforms mentioned",
+          "No DevOps experience"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and its frameworks",
+          "Good backend development skills",
+          "Has worked in cross-functional teams",
+          "Strong problem-solving and analytical skills"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 7,
+        "reasoning": [
+          "Haridas Kandath has strong technical skills, particularly in JavaScript and backend development.",
+          "He has a good amount of experience and a strong educational background.",
+          "His lack of experience with Ruby, cloud platforms, and DevOps are concerns, but these are skills that can be learned on the job."
+        ],
+        "nextSteps": [
+          "Send offer letter",
+          "Schedule onboarding process",
+          "Plan initial training for Ruby, cloud platforms, and DevOps"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T08:49:36.674Z"
+    }
+  },
+  {
+    "submissionId": "4U411bCffA-EIH22MtzNg",
+    "candidateName": "Haridas Kandath",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 7 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T09:36:16.265Z",
+    "processedAt": "2025-06-16T09:36:39.689Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Javascript",
+          "Java",
+          "Typescript",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby",
+          "No mention of experience with DevOps",
+          "No mention of experience with cloud platforms"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React",
+          "Has more than required years of experience in software development",
+          "Has a Bachelor's degree in Computer Science"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 7,
+        "reasoning": [
+          "Strong technical skills with a score of 7/10",
+          "Has more than required years of experience in software development",
+          "Strong educational background with a Bachelor's degree in Computer Science",
+          "Overall fit score of 7.5/10 indicates a good match for the role"
+        ],
+        "nextSteps": [
+          "Schedule a technical interview to assess knowledge of Ruby, DevOps, and cloud platforms",
+          "If technical interview is satisfactory, proceed with job offer"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T09:36:38.607Z"
+    }
+  },
+  {
+    "submissionId": "5A1XonwDOapxY85nNvp8j",
+    "candidateName": "Haridas Kandath",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 10 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T13:24:00.803Z",
+    "processedAt": "2025-06-16T13:24:26.980Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Javascript",
+          "Java",
+          "Typescript",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby",
+          "No mention of experience with DevOps",
+          "No mention of experience with cloud platforms"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React",
+          "Extensive experience in software development",
+          "Bachelor's degree in Computer Science",
+          "Experience with multiple databases"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 8,
+        "reasoning": [
+          "Candidate has strong technical skills with a score of 7/10",
+          "Candidate has extensive experience in software development",
+          "Candidate has a Bachelor's degree in Computer Science",
+          "Candidate has experience with multiple databases",
+          "Overall fit of the candidate is 7.5/10 which is above the threshold for hiring"
+        ],
+        "nextSteps": [
+          "Offer the candidate a job",
+          "If accepted, schedule onboarding process",
+          "If rejected, revisit candidate pool"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T13:24:25.333Z"
+    }
+  },
+  {
+    "submissionId": "XN9Fk7ZgGf9-GOUW_DDU9",
+    "candidateName": "Haridas Kandath",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 10 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T13:27:36.491Z",
+    "processedAt": "2025-06-16T13:28:00.143Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Javascript",
+          "Java",
+          "Typescript",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 6,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7,
+        "concerns": [
+          "Lack of experience with Ruby",
+          "No experience with DevOps",
+          "No experience with cloud platforms"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React",
+          "Broad range of technical skills",
+          "Good experience level",
+          "Relevant education"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 7,
+        "reasoning": [
+          "Haridas Kandath has a strong experience with JavaScript and React, a broad range of technical skills, good experience level, and relevant education.",
+          "His overall fit score is 7/10, which meets our hiring criteria.",
+          "His lack of experience with Ruby, DevOps, and cloud platforms is a concern, but these are skills that can be learned on the job."
+        ],
+        "nextSteps": [
+          "Send offer letter",
+          "Schedule onboarding session",
+          "Plan initial training for Ruby, DevOps, and cloud platforms"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T13:27:59.210Z"
+    }
+  },
+  {
+    "submissionId": "LzI7Ml8Xloqmn2ptDk8Wu",
+    "candidateName": "AJ",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 10 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T13:28:32.509Z",
+    "processedAt": "2025-06-16T13:28:59.475Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Javascript",
+          "Java",
+          "Typescript",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby",
+          "No experience with DevOps",
+          "No experience with cloud platforms"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React",
+          "Good backend development skills",
+          "Experience with multiple databases",
+          "Strong experience in software development"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 8,
+        "reasoning": [
+          "Candidate has strong technical skills with a score of 7/10",
+          "Candidate has strong experience in software development",
+          "Candidate has a high level of education",
+          "Overall fit for the role is good with a score of 7.5/10",
+          "Lack of experience with Ruby, DevOps, and cloud platforms is a concern, but these are skills that can be learned on the job"
+        ],
+        "nextSteps": [
+          "Send offer letter",
+          "Schedule onboarding session",
+          "Prepare training plan for Ruby, DevOps, and cloud platforms"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T13:28:58.382Z"
+    }
+  },
+  {
+    "submissionId": "d7wZnZ866F4BtJ2Nd5K7K",
+    "candidateName": "AJ",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 10 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T13:35:47.339Z",
+    "processedAt": "2025-06-16T13:36:14.290Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Javascript",
+          "Java",
+          "Typescript",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby",
+          "No experience with DevOps",
+          "No experience with cloud platforms"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React",
+          "Experience with multiple databases",
+          "Strong experience in backend development",
+          "Excellent problem-solving and analytical skills",
+          "Strong communication skills"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 8,
+        "reasoning": [
+          "Candidate has strong technical skills with a score of 7/10",
+          "Candidate has strong experience in the field with a score of 8/10",
+          "Candidate has excellent education with a score of 10/10",
+          "Candidate's overall fit for the job is good with a score of 7.5/10",
+          "Candidate has strong experience with JavaScript, React, and backend development",
+          "Candidate has excellent problem-solving, analytical, and communication skills",
+          "Concerns such as lack of experience with Ruby, DevOps, and cloud platforms are not major red flags as these skills can be learned on the job"
+        ],
+        "nextSteps": [
+          "Send job offer to the candidate",
+          "Schedule onboarding process",
+          "Plan initial training for Ruby, DevOps, and cloud platforms"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T13:36:13.379Z"
+    }
+  },
+  {
+    "submissionId": "VRo0HNf7Tft2B1F8YLIai",
+    "candidateName": "AJ",
+    "candidateEmail": "oniakeron@yahoo.com",
+    "candidateDescription": "I have 10 years of experience in web development.",
+    "fileNames": [
+      "Haridas Kandath.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T13:36:57.418Z",
+    "processedAt": "2025-06-16T13:37:24.750Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Python",
+          "Javascript",
+          "Java",
+          "Typescript",
+          "PostgreSQL",
+          "MySQL",
+          "MSSQL",
+          "Ubuntu",
+          "Debian",
+          "Mint",
+          "Windows",
+          "React",
+          "Pandas",
+          "AngularJS",
+          "Numpy",
+          "Git"
+        ],
+        "educationLevel": "Bachelors in Computer Sciences and Engineering",
+        "previousRoles": [
+          "Senior Software Engineer at OpenText",
+          "Member of Technical Staff at Rivet Labs Software Private Ltd",
+          "Senior Software Engineer at Cynepia Software Solutions Ltd",
+          "Software Engineer at Xurmo Technologies Pvt Limited"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby",
+          "No experience with DevOps",
+          "No experience with cloud platforms"
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React",
+          "Extensive backend development experience",
+          "Good problem-solving and analytical skills",
+          "Strong communication skills",
+          "Ability to adapt to changing priorities"
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "HIRE",
+        "confidence": 8,
+        "reasoning": [
+          "Candidate has strong technical skills with a rating of 7/10",
+          "Candidate has extensive experience and a strong educational background",
+          "Candidate's overall fit for the position is 7.5/10 which is above the threshold for hiring",
+          "The lack of experience with Ruby, DevOps, and cloud platforms are concerns but not major red flags as these skills can be learned on the job"
+        ],
+        "nextSteps": [
+          "Send job offer to the candidate",
+          "Plan onboarding process",
+          "Arrange training for Ruby, DevOps, and cloud platforms"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T13:37:23.683Z"
+    }
+  },
+  {
+    "submissionId": "v9jcCgr5qzHtvHBxOQ6Sm",
+    "candidateName": "Kiryl Bukinevich",
+    "candidateEmail": "kirillbukinevich@gmail.com",
+    "candidateDescription": "I am a developer with 7 years of experience.",
+    "fileNames": [
+      "2.0 of CV_KIRYL_BUKINEVICH.docx.pdf"
+    ],
+    "status": "SENT_TO_HR",
+    "submittedAt": "2025-06-16T18:03:54.694Z",
+    "processedAt": "2025-06-16T18:04:56.087Z",
+    "result": {
+      "candidateData": {
+        "yearsOfExperience": 7,
+        "technicalSkills": [
+          "Spring",
+          "Java 11+",
+          "AWS",
+          "CloudFormation",
+          "S3",
+          "Lambda",
+          "Elasticache",
+          "Kubernetes",
+          "Postgres",
+          "Nakadi",
+          "RabbitMQ",
+          "Docker",
+          "Opentelementry (Lightstep)",
+          "Apache Airﬂow",
+          "Spark",
+          "Databricks",
+          "Python",
+          "Java 18",
+          "Oracle",
+          "MySQL",
+          "MS SQL",
+          "JUnit 5",
+          "Testcontainers",
+          "Groovy",
+          "Spock",
+          "Bamboo",
+          "Argo CD",
+          "React",
+          "Next.js",
+          "Tomcat",
+          "JQuery",
+          "JavaScript",
+          "React Native",
+          "JSF"
+        ],
+        "educationLevel": "Bachelor's degree, Computer science",
+        "previousRoles": [
+          "Senior Software Engineer at Zalando",
+          "Senior Software Engineer at Sigli",
+          "Team Lead / Software Engineer at IBA Group"
+        ],
+        "redFlags": []
+      },
+      "analysisResult": {
+        "technicalSkillsScore": 7,
+        "experienceScore": 8,
+        "educationScore": 10,
+        "overallFit": 7.5,
+        "concerns": [
+          "Lack of experience with Ruby, which is a key requirement for the role.",
+          "No specific mention of DevOps experience."
+        ],
+        "strengths": [
+          "Strong experience with JavaScript and React.",
+          "Extensive experience with AWS, which is one of the preferred cloud platforms.",
+          "Strong backend development skills with various programming languages.",
+          "Has more than the required years of experience in software development.",
+          "Has a Bachelor's degree in Computer Science."
+        ]
+      },
+      "decisionResult": {
+        "recommendation": "MAYBE",
+        "confidence": 7,
+        "reasoning": [
+          "The candidate has strong technical skills, experience, and education which align with the role requirements.",
+          "However, there is a concern about the lack of experience with Ruby, which is a key requirement for the role.",
+          "There is also no specific mention of DevOps experience."
+        ],
+        "nextSteps": [
+          "Schedule a technical interview to assess Ruby and DevOps skills",
+          "Ask for references to gain more insight into the candidate's experience and skills"
+        ]
+      },
+      "jobRequirements": {
+        "requiredSkills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Git",
+          "GitHub"
+        ],
+        "minimumExperience": 2,
+        "preferredEducation": "Bachelor's degree or equivalent experience",
+        "roleLevel": "mid"
+      },
+      "processedAt": "2025-06-16T18:04:54.780Z"
+    }
+  }
+]

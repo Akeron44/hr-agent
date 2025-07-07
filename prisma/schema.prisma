@@ -1,0 +1,213 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ===== ENUMS =====
+enum ApplicationStatus {
+  PENDING
+  PROCESSING
+  FAILED
+  SENT_TO_HR
+  REVIEWED
+  REJECTED
+  HIRED
+}
+
+enum RecommendationType {
+  HIRE
+  NO_HIRE
+  INTERVIEW
+  NEEDS_REVIEW
+}
+
+enum JobStatus {
+  DRAFT
+  ACTIVE
+  PAUSED
+  CLOSED
+  FILLED
+}
+
+enum EmploymentType {
+  FULL_TIME
+  PART_TIME
+  CONTRACT
+  INTERNSHIP
+  FREELANCE
+}
+
+model JobPosting {
+  id                String         @id @default(cuid())
+  title             String
+  department        String?
+  location          String?
+  employmentType    EmploymentType @default(FULL_TIME)
+  salaryMin         Int?
+  salaryMax         Int?
+  salaryCurrency    String         @default("USD")
+  description       String?
+  requirements      String?
+  benefits          String?
+  remoteAllowed     Boolean        @default(false)
+  status            JobStatus      @default(DRAFT)
+  minimumExperience Int            @default(0)
+  preferredEducation String?
+  roleLevel         String?       
+  requiredSkills    String[]     
+  preferredSkills   String[]      
+  
+  companyName       String?       
+  sourceUrl         String?       
+  extractedAt       DateTime?      
+  extractionMethod  String?       
+  
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+  postedAt          DateTime?
+  closesAt          DateTime?
+  createdBy         String?       
+  
+  applications      Application[]
+  
+  @@map("job_postings")
+}
+
+model Application {
+  id                   String            @id @default(cuid())
+  submissionId         String            @unique
+  jobPostingId         String?
+  
+  candidateName        String
+  candidateEmail       String
+  candidatePhone       String?
+  candidateDescription String?
+  
+  status               ApplicationStatus @default(PENDING)
+  submittedAt          DateTime
+  processedAt          DateTime?
+  
+  fileNames            String[]         
+  originalFiles        Json?             
+  
+  createdAt            DateTime          @default(now())
+  updatedAt            DateTime          @updatedAt
+  
+  jobPosting           JobPosting?       @relation(fields: [jobPostingId], references: [id])
+  candidateProfile     CandidateProfile?
+  analysisResult       AnalysisResult?
+  decisionResult       DecisionResult?
+  notes                ApplicationNote[]
+  interviews           Interview[]
+  
+  @@map("applications")
+}
+
+model CandidateProfile {
+  id                String      @id @default(cuid())
+  applicationId     String      @unique
+  
+  yearsOfExperience Int?
+  educationLevel    String?
+  technicalSkills   String[]    
+  previousRoles     String[]    
+  redFlags          String[]    
+  
+  rawCvData         Json?
+  
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  
+  application       Application @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  
+  @@map("candidate_profiles")
+}
+
+model AnalysisResult {
+  id                    String      @id @default(cuid())
+  applicationId         String      @unique
+  
+  technicalSkillsScore  Float?      
+  experienceScore       Float?
+  educationScore        Float?
+  overallFit            Float?
+  
+  concerns              String[]    
+  strengths             String[]    
+  
+  analyzedAt            DateTime    @default(now())
+  analysisVersion       String?     
+  
+  createdAt             DateTime    @default(now())
+
+  application           Application @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  
+  @@map("analysis_results")
+}
+
+model DecisionResult {
+  id               String             @id @default(cuid())
+  applicationId    String             @unique
+  
+  recommendation   RecommendationType
+  confidence       Int                
+  reasoning        String[]           
+  nextSteps        String[]           
+  
+  decidedAt        DateTime           @default(now())
+  decidedBy        String?            
+  
+  jobRequirements  Json?
+  
+  createdAt        DateTime           @default(now())
+  
+  application      Application        @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  
+  @@map("decision_results")
+}
+
+model ApplicationNote {
+  id            String      @id @default(cuid())
+  applicationId String
+  
+  noteText      String
+  noteType      String      @default("GENERAL")
+  isInternal    Boolean     @default(false)
+  
+  createdBy     String
+  createdAt     DateTime    @default(now())
+  
+  application   Application @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  
+  @@map("application_notes")
+}
+
+model Interview {
+  id               String             @id @default(cuid())
+  applicationId    String
+  
+  interviewType    String            
+  scheduledAt      DateTime?
+  conductedAt      DateTime?
+  durationMinutes  Int?
+  
+  interviewerName  String?
+  interviewerEmail String?
+  
+  notes            String?
+  score            Float?             
+  recommendation   RecommendationType?
+  
+  status           String             @default("SCHEDULED")
+  
+  createdAt        DateTime           @default(now())
+  updatedAt        DateTime           @updatedAt
+  
+  application      Application        @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  
+  @@map("interviews")
+}
